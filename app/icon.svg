@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#e85d26"/>
+
+  <!-- < chevron, left side -->
+  <polyline points="10,18 4,30 10,42"
+    fill="none" stroke="rgba(255,255,255,0.8)" stroke-width="3.5"
+    stroke-linecap="round" stroke-linejoin="miter"/>
+
+  <!-- L letterform -->
+  <path d="M19,13 L19,49 L38,49"
+    fill="none" stroke="white" stroke-width="6"
+    stroke-linecap="round" stroke-linejoin="miter"/>
+
+  <!-- / tucked into L negative space, clear of strokes -->
+  <line x1="35" y1="42" x2="42" y2="16"
+    stroke="rgba(255,255,255,0.8)" stroke-width="3.5"
+    stroke-linecap="round"/>
+
+  <!-- > chevron, right side -->
+  <polyline points="49,18 55,30 49,42"
+    fill="none" stroke="rgba(255,255,255,0.8)" stroke-width="3.5"
+    stroke-linecap="round" stroke-linejoin="miter"/>
+</svg>
